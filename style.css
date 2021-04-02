@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+* {
+box-sizing: border-box; /*لا ياثر علي مساحة الديف عند اضافة (padding or border)*/
+}
+
+body {
+    background-color: rgb(161, 100, 223);
+    font-family: 'Poppins' , sans-serif;
+    display: flex;/* الديفات تتحط جنب بعض بدل من تحت بعض*/
+    flex-wrap: wrap;
+    align-items: center; /*توسيط عرضي في النص ناحية left */
+    justify-content: center;/* توسيط عرضي في النص ناحية top */
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;/*لاخفاء اي حاجة تخرج برة المساحة اللي انا محددها*/
+    margin: 0;
+}
+
+.btn {
+    background-color: rebeccapurple;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    margin: 1rem;
+    padding: 1.5rem 3rem;
+    font-size: 1.2rem;
+    font-family: inherit;
+}
+
+.btn:hover{
+    opacity: 0.9;
+}
+
+.btn:focus {
+    outline: none;
+}
